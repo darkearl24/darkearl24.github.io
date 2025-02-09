@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        background-color: transparent;
+        width: 350px;
+        height: 400px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    }
+    .container input {
+            width: 85%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn, .btn2 {
+            width: 100%;
+            padding: 30px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn2{
+            background-color: red;
+        }
+        .p1{
+            font-size: 18px;
+            margin: 0;
+        }
+        a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+      
+</style>
+<body>
+    <div class="container">
+        <h2>Mohon University Login</h2>
+        <input type="email" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <input type="button" class="btn" value="Login">
+        <p class="p1">or</p>
+        <input type="button" class="btn2" value="Login with Google">
+        <p>Don't have an Account? <a href="" target="_parent" >Sign Up</a></p>
+
+
+
+
+    </div>
+    
+</body>
+    
+</html>
